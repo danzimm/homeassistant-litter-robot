@@ -10,7 +10,17 @@ The `litter-robot` component offers integration with the [Litter-Robot](https://
 
 ## Install
 
-Load this component by copying the custom_components/litter_robot directory and its contents to the custom_components directory in your Home Assistant's configuration directory, typically `/config/custom_components`, but may be [elsewhere](https://www.home-assistant.io/docs/configuration/) depending on your installation. This is easiest with the Samba share add-on.  Alternatively, from a [terminal](https://github.com/home-assistant/addons/blob/master/ssh/DOCS.md) run the following:
+### HACS
+
+1. In Home Assistant, open HACS.
+2. Go to the menu in the top right and select "Custom repositories".
+3. Add `https://github.com/joshjcarrier/homeassistant-litter-robot` as an `Integration` repository.
+4. Install `Litter-Robot` from HACS.
+5. Restart Home Assistant.
+
+### Manual
+
+Load this component by copying the custom_components/litter_robot directory and its contents to the custom_components directory in your Home Assistant's configuration directory, typically `/config/custom_components`, but may be [elsewhere](https://www.home-assistant.io/docs/configuration/) depending on your installation. This is easiest with the Samba share add-on. Alternatively, from a [terminal](https://github.com/home-assistant/addons/blob/master/ssh/DOCS.md) run the following:
 ```
 git clone --depth=1 https://github.com/joshjcarrier/homeassistant-litter-robot.git
 cp -r homeassistant-litter-robot/custom_components/litter_robot /config/custom_components/

@@ -1,11 +1,14 @@
 {
   "domain": "litter_robot",
-  "name": "litter_robot",
+  "name": "Litter-Robot",
   "documentation": "https://github.com/joshjcarrier/homeassistant-litter-robot",
   "dependencies": [],
   "codeowners": [
     "@joshjcarrier"
   ],
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/joshjcarrier/homeassistant-litter-robot/issues",
   "version": "2021.5.0",
   "requirements": [],
   "homeassistant": "0.111.0"
